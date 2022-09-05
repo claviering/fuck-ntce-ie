@@ -2,6 +2,15 @@
 
 # 2022年下半年广东中小学教师资格考试网上报名跳过IE浏览器校验
 
+原理：一行代码检查是否IE浏览器
+
+```js
+if(!window.ActiveXObject)
+{
+	location.href = 'ieNote';
+}
+```
+
 ## 1. 跳过IE浏览器校验直接访问注册页面
 
 [广东省注册页面](https://ntcebm5.neea.edu.cn/apply/memapp/memReg)，其他省份，把 ntcebm5 修改为对应省份的地址

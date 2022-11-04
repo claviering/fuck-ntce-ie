@@ -2,7 +2,7 @@
 
 # 2022年下半年广东中小学教师资格考试网上报名跳过IE浏览器校验
 
-使用，直接插入登录表单
+使用，控制台运行下面代码，直接插入登录表单
 
 ```js
 let script = document.createElement("script");
